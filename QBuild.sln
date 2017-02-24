@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QBuildServer", "QBuildServer\QBuildServer.csproj", "{3B9FBB7C-BB06-4E4B-A7D6-5FDC787FC0E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QBuildClient", "QBuildClient\QBuildClient.csproj", "{2D96327F-6081-47CD-AECB-8386EEA80068}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAE606D0-52C2-482C-9128-3E636B08CC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE606D0-52C2-482C-9128-3E636B08CC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE606D0-52C2-482C-9128-3E636B08CC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE606D0-52C2-482C-9128-3E636B08CC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9FBB7C-BB06-4E4B-A7D6-5FDC787FC0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9FBB7C-BB06-4E4B-A7D6-5FDC787FC0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9FBB7C-BB06-4E4B-A7D6-5FDC787FC0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9FBB7C-BB06-4E4B-A7D6-5FDC787FC0E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D96327F-6081-47CD-AECB-8386EEA80068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D96327F-6081-47CD-AECB-8386EEA80068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D96327F-6081-47CD-AECB-8386EEA80068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D96327F-6081-47CD-AECB-8386EEA80068}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

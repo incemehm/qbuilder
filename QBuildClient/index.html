@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>simple plugin</title>
+    
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+    <link href="assets/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="main"></div>
+
+
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="assets/js/vendor/Sortable.js"></script>
+    <script src="assets/js/plugin/plugin.js"></script>
+    <script>
+       
+        $(function () {
+
+            $("#main").qBuilder({
+                url: "http://localhost:62025/api/database/CobWebTest"
+            });
+
+        });
+
+
+    </script>
+</body>
+</html>
